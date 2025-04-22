@@ -1,0 +1,86 @@
+.expired-time-circle {
+     position: relative;
+     border: none !important;
+}
+
+.expired-time-circle::before {
+     position: absolute;
+     content: '';
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+     border: 4px solid #88fb3b;
+}
+
+.expired-time-circle.danger-border .animation-circle {
+     border-color: #f44336 !important;
+}
+
+@keyframes clipCircle {
+     0% {
+          clip-path: polygon(50% 50%, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%);
+          /* center, top-center*/
+     }
+
+     12.5% {
+          clip-path: polygon(50% 50%, 50% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%);
+          /* center, top-center, top-left*/
+     }
+
+     25% {
+          clip-path: polygon(50% 50%, 50% 0%, 0% 0%, 0% 50%, 0% 50%, 0% 50%, 0% 50%, 0% 50%, 0% 50%, 0% 50%);
+          /* center, top-center, top-left, left-center*/
+     }
+
+     37.5% {
+          clip-path: polygon(50% 50%, 50% 0%, 0% 0%, 0% 50%, 0% 100%, 0% 100%, 0% 100%, 0% 100%, 0% 100%, 0% 100%);
+          /* center, top-center, top-left, left-center, bottom-left*/
+     }
+
+     50% {
+          clip-path: polygon(50% 50%, 50% 0%, 0% 0%, 0% 50%, 0% 100%, 50% 100%, 50% 100%, 50% 100%, 50% 100%, 50% 100%);
+          /* center, top-center, top-left, left-center, bottom-left, bottom-center*/
+     }
+
+     62.5% {
+          clip-path: polygon(50% 50%, 50% 0%, 0% 0%, 0% 50%, 0% 100%, 50% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%);
+          /* center, top-center, top-left, left-center, bottom-left, bottom-center, bottom-right*/
+     }
+
+     75% {
+          clip-path: polygon(50% 50%, 50% 0%, 0% 0%, 0% 50%, 0% 100%, 50% 100%, 100% 100%, 100% 50%, 100% 50%, 100% 50%);
+          /* center, top-center, top-left, left-center, bottom-left, bottom-center, bottom-right, right-center*/
+     }
+
+     87.5% {
+          clip-path: polygon(50% 50%, 50% 0%, 0% 0%, 0% 50%, 0% 100%, 50% 100%, 100% 100%, 100% 50%, 100% 0%, 100% 0%);
+          /* center, top-center, top-left, left-center, bottom-left, bottom-center, bottom-right, right-center top-right*/
+     }
+
+     100% {
+          clip-path: polygon(50% 50%, 50% 0%, 0% 0%, 0% 50%, 0% 100%, 50% 100%, 100% 100%, 100% 50%, 100% 0%, 50% 0%);
+          /* center, top-center, top-left, left-center, bottom-left, bottom-center, bottom-right, right-center top-right, top-center*/
+     }
+}
+
+.expired-time-circle {
+     margin-top: 15px;
+     border-radius: 50%;
+     width: 80px;
+     height: 80px;
+     border: 4px solid #88fb3b;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     overflow: hidden;
+     padding: 50px;
+     color: #fff;
+}
+
+.expired-time-circle.danger-border {
+     border-color: #fb3b47;
+}

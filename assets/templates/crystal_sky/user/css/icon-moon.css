@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/custom-fonts/icomoon.eot?z72a3v");
+  src: url("../fonts/custom-fonts/icomoon.eot?z72a3v#iefix")
+      format("embedded-opentype"),
+    url("../fonts/custom-fonts/icomoon.ttf?z72a3v") format("truetype"),
+    url("../fonts/custom-fonts/icomoon.woff?z72a3v") format("woff"),
+    url("../fonts/custom-fonts/icomoon.svg?z72a3v#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-coin-money:before {
+  content: "\e900";
+}
+.icon-copy:before {
+  content: "\e901";
+}
+.icon-door-open:before {
+  content: "\e902";
+}
+.icon-gear:before {
+  content: "\e903";
+}
+.icon-hand-money:before {
+  content: "\e904";
+}
+.icon-money:before {
+  content: "\e905";
+}
+.icon-savings:before {
+  content: "\e906";
+}
+.icon-two-arrows:before {
+  content: "\e907";
+}
+.icon-Vector:before {
+  content: "\e908";
+}
+.icon-withdraw:before {
+  content: "\e909";
+}

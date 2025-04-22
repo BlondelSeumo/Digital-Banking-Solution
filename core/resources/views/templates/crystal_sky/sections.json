@@ -1,0 +1,329 @@
+{
+    "banner": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Banner Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "495x560"
+                },
+                "video_thumbnail": {
+                    "size": "105x65"
+                },
+                "user_images": {
+                    "size": "210x70"
+                }
+            },
+            "heading": "text",
+            "total_user": "text",
+            "title": "text",
+            "button_text": "text",
+            "button_link": "text",
+            "video_link": "text"
+        }
+    },
+    "about": {
+        "builder": true,
+        "name": "About Us",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "385x460"
+                }
+            },
+            "heading": "text",
+            "subheading": "text",
+            "image_popup_digit": "text",
+            "image_popup_title": "text",
+            "image_popup_icon": "icon"
+        },
+        "element": {
+            "heading": "text",
+            "description": "textarea",
+            "modal": true
+        }
+    },
+    "service": {
+        "builder": true,
+        "name": "Service Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "665x760"
+                }
+            },
+            "heading": "text",
+            "subheading": "text"
+        },
+        "element": {
+            "heading": "text",
+            "description": "textarea",
+            "icon": "icon",
+            "modal": true
+        }
+    },
+    "why_choose": {
+        "builder": true,
+        "name": "Why Choose Us",
+        "content": {
+            "images": {
+                "image_one": {
+                    "size": "470x425"
+                },
+                "image_two": {
+                    "size": "330x330"
+                },
+                "circle_image": {
+                    "size": "100x100"
+                }
+            },
+            "heading": "text",
+            "subheading": "heading",
+            "icon": "icon",
+            "title": "text",
+            "subtitle": "text",
+            "slogan": "text"
+        },
+        "element": {
+            "heading": "text",
+            "description": "textarea",
+            "modal": true
+        }
+    },
+    "feature": {
+        "builder": true,
+        "name": "Feature Section",
+        "content": {
+            "heading": "text",
+            "subheading": "text"
+        },
+        "element": {
+            "heading": "text",
+            "subheading": "textarea",
+            "icon": "icon",
+            "modal": true
+        }
+    },
+    "how_it_work": {
+        "builder": true,
+        "name": "How It Works",
+        "content": {
+            "title": "text",
+            "heading": "text"
+        },
+        "element": {
+            "heading": "text",
+            "subheading": "textarea",
+            "modal": true
+        }
+    },
+    "faq": {
+        "builder": true,
+        "name": "FAQ Section",
+        "content": {
+            "heading": "text",
+            "subheading": "text",
+            "description": "textarea",
+            "button_text": "text",
+            "button_link": "text"
+        },
+        "element": {
+            "question": "text",
+            "answer": "textarea",
+            "modal": true
+        }
+    },
+    "loan_plans": {
+        "builder": true,
+        "title": "text",
+        "name": "Loan Plan Section",
+        "content": {
+            "title": "text",
+            "heading": "text"
+        }
+    },
+    "subscribe": {
+        "builder": true,
+        "name": "Subscribe Section",
+        "content": {
+            "heading": "text"
+        }
+    },
+    "fdr_plans": {
+        "builder": true,
+        "name": "FDR Plan Section",
+        "content": {
+            "heading": "text",
+            "subheading": "text"
+        }
+    },
+    "dps_plans": {
+        "builder": true,
+        "name": "DPS Plan Section",
+        "content": {
+            "heading": "text",
+            "subheading": "text"
+        }
+    },
+    "contact_us": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Contact Us",
+        "content": {
+            "heading": "text",
+            "subheading": "text",
+            "contact_address": "text",
+            "contact_number": "text",
+            "email_address": "text",
+            "map_source": "textarea"
+        }
+    },
+    "testimonial": {
+        "builder": true,
+        "name": "Testimonial Section",
+        "content": {
+            "heading": "text",
+            "subheading": "text"
+        },
+        "element": {
+            "images": {
+                "image": {
+                    "size": "75x75"
+                }
+            },
+            "name": "text",
+            "designation": "text",
+            "quote": "textarea",
+            "rating": "text",
+            "modal": false
+        }
+    },
+    "footer": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Footer Section",
+        "content": {
+            "title": "text",
+            "contact_title": "text",
+            "description": "text"
+        }
+    },
+    "social_link": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Social Link",
+        "element": {
+            "social_icon": "icon",
+            "social_link": "text",
+            "modal": true
+        }
+    },
+    "policy_pages": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Policy Pages",
+        "element": {
+            "title": "text",
+            "content": "textarea-nic",
+            "modal": false
+        }
+    },
+    "partner_section": {
+        "builder": true,
+        "name": "Partners Section",
+        "content": {
+            "heading": "text"
+        },
+        "element": {
+            "images": {
+                "image": {
+                    "size": "300x150"
+                }
+            },
+            "modal": true
+        }
+    },
+    "counter": {
+        "builder": true,
+        "name": "Counter Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1920x400"
+                }
+            }
+        },
+        "element": {
+            "title": "text",
+            "digit": "text",
+            "symbol": "text",
+            "modal": true
+        }
+    },
+    "login_bg": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Login Background",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "820x730"
+                }
+            },
+            "heading": "text",
+            "subheading": "text"
+        }
+    },
+    "signup_bg": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Signup Background",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "820x730"
+                }
+            },
+            "heading": "text",
+            "subheading": "text"
+        }
+    },
+    "forget_pass": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Password Background",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1920x1280"
+                }
+            },
+            "heading": "text",
+            "subheading": "text"
+        }
+    },
+    "kyc": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Kyc content section",
+        "content": {
+            "required": "text",
+            "pending": "text",
+            "reject": "text"
+        }
+    },
+    "banned": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Banned Page",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "360x370"
+                }
+            },
+            "heading": "text"
+        }
+    }
+}

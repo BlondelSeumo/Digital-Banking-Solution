@@ -1,0 +1,526 @@
+{
+    "general_setting": {
+        "keyword": [
+            "general",
+            "fundamental",
+            "site information",
+            "site",
+            "website settings",
+            "basic settings",
+            "global settings",
+            "site color",
+            "timezone",
+            "site currency",
+            "pagination",
+            "currency format",
+            "site title",
+            "base color",
+            "secondary color",
+            "paginate"
+        ],
+        "title": "General Settings",
+        "subtitle": "Configure the fundamental information of the site.",
+        "icon": "las la-cog",
+        "route_name": "admin.setting.general"
+    },
+    "system_configuration": {
+        "keyword": [
+            "basic modules",
+            "control",
+            "modules",
+            "system",
+            "configuration settings",
+            "system control",
+            "force ssl",
+            "force secure password",
+            "kyc control",
+            "email control",
+            "sms control",
+            "verification control",
+            "push notification control",
+            "language control",
+            "mobile verification",
+            "email verification",
+            "in app payment"
+        ],
+        "title": "System Configuration",
+        "subtitle": "Control all of the basic modules of the system.",
+        "icon": "las la-cogs",
+        "route_name": "admin.setting.system.configuration"
+    },
+    "logo_favicon": {
+        "keyword": [
+            "branding",
+            "identity",
+            "logo upload",
+            "site branding",
+            "brand identity",
+            "favicon",
+            "website icon",
+            "website favicon",
+            "website logo"
+        ],
+        "title": "Logo and Favicon",
+        "subtitle": "Upload your logo and favicon here.",
+        "icon": "las la-images",
+        "route_name": "admin.setting.logo.icon"
+    },
+    "notification_setting": {
+        "keyword": [
+            "email configuration",
+            "sms configure",
+            "push notification configure",
+            "email setting",
+            "sms setting",
+            "push notification setting",
+            "firebase setting",
+            "firebase control",
+            "email template",
+            "sms template",
+            "push notification template",
+            "notification template",
+            "smtp",
+            "sendgrid",
+            "send grid",
+            "mailjet",
+            "mail jet",
+            "php",
+            "nexmo",
+            "clickatell",
+            "click a tell",
+            "infobip",
+            "info bip",
+            "message bird",
+            "sms broadcast",
+            "twilio",
+            "text magic",
+            "custom api",
+            "template setting",
+            "global template",
+            "global notification"
+        ],
+        "title": "Notification Setting",
+        "subtitle": "Control and configure overall notification elements of the system.",
+        "icon": "las la-bell",
+        "route_name": [
+            "admin.setting.notification.global.email",
+            "admin.setting.notification.global.sms",
+            "admin.setting.notification.global.push",
+            "admin.setting.notification.email",
+            "admin.setting.notification.sms",
+            "admin.setting.notification.push",
+            "admin.setting.notification.templates"
+        ]
+    },
+    "payment_gateways": {
+        "keyword": [
+            "automatic",
+            "manual",
+            "configure payment gateways",
+            "aamarpay",
+            "amarpay",
+            "authorize",
+            "autorize.net",
+            "btcpay",
+            "btc pay",
+            "binance",
+            "blockchain",
+            "cashmaal",
+            "checkout",
+            "coinbase commerce",
+            "coingate",
+            "coinpayments",
+            "flutterwave",
+            "instamojo",
+            "mercado pago",
+            "mollie",
+            "nmi",
+            "now payments",
+            "nowpayments",
+            "payeer",
+            "paypal",
+            "paystack",
+            "paytm",
+            "perfect money",
+            "perfectmoney",
+            "razorpay",
+            "skrill",
+            "sslcommerz",
+            "stripe",
+            "twocheckout",
+            "two checkout",
+            "2checkout"
+        ],
+        "title": "Payment Gateways",
+        "subtitle": "Configure automatic or manual payment gateways to accept payment from users.",
+        "icon": "las la-credit-card",
+        "route_name": ["admin.gateway.automatic.index", "admin.gateway.manual.index"]
+    },
+    "withdrawals_methods": {
+        "keyword": [
+            "manual withdrawal",
+            "payout",
+            "payment withdrawal",
+            "withdrawal options",
+            "withdrawal settings",
+            "payout methods",
+            "payout settings",
+            "configure withdrawals",
+            "configure payouts"
+        ],
+        "title": "Withdrawals Methods",
+        "subtitle": "Setup manual withdrawal method so that users of the system can make payout requests through those methods.",
+        "icon": "la la-bank",
+        "route_name": "admin.withdraw.method.index"
+    },
+    "referral_setting": {
+        "keyword": [
+            "Referral Setting",
+            "affiliate configuration"
+        ],
+        "title": "Referral Setting",
+        "subtitle": "Configure referral setting for user referral management.",
+        "icon": "las la-tree",
+        "route_name": "admin.referral.setting"
+    },
+    "api_configuration": {
+        "priority": 9,
+        "keyword": [
+            "api configuration",
+            "airtime api",
+            "reloadly"
+        ],
+        "title": "API Configuration",
+        "subtitle": "Configure third party APIs from here.",
+        "icon": "las la-cloud",
+        "route_name": "admin.api.config.index"
+    },
+    "other_bank": {
+        "priority": 9,
+        "keyword": [
+            "other bank",
+            "transfer",
+            "bank transfer",
+            "local bank",
+            "local transfer"
+        ],
+        "title": "Other Banks",
+        "subtitle": "Manage all local bank from here.",
+        "icon": "la la-bank",
+        "route_name": "admin.bank.index"
+    },
+    "wire_transfer_setting": {
+        "priority": 10,
+        "keyword": [
+            "wire transfer",
+            "wire transfer configuration",
+            "wire transfer setting",
+            "wire transfer form"
+        ],
+        "title": "Wire Transfer",
+        "subtitle": "Configure wire transfer setting and wire transfer form from here.",
+        "icon": "las la-random",
+        "route_name": ["admin.wire.transfer.setting", "admin.wire.transfer.form"]
+    },
+    "manage_branch": {
+        "priority": 10,
+        "keyword": [
+            "branches",
+            "all branches",
+            "manage branch"
+        ],
+        "title": "Manage Branches",
+        "subtitle": "Manage all branches and branch staff from here.",
+        "icon": "la la-bank",
+        "route_name": "admin.branch.index"
+    },
+    "manage_plans": {
+        "priority": 11,
+        "keyword": [
+            "plans",
+            "pricing",
+            "plan configuration",
+            "plan setting",
+            "fdr plans",
+            "dps plans",
+            "loan plans",
+            "products"
+        ],
+        "title": "Manage Plans",
+        "subtitle": "Manage all plans of DPS, FDR, Loan from here.",
+        "icon": "la la-project-diagram",
+        "route_name": ["admin.plans.fdr.index", "admin.plans.dps.index", "admin.plans.loan.index"]
+    },
+    "manage_airtime": {
+        "keyword": [
+            "top up",
+            "topup",
+            "reloadly",
+            "airtime",
+            "recharge",
+            "countries",
+            "airtime countries",
+            "operator",
+            "airtime transfer"
+        ],
+        "title": "Manage Airtime",
+        "subtitle": "Configure airtime countries and operators from here.",
+        "icon": "las la-mobile",
+        "route_name": ["admin.airtime.countries", "admin.airtime.operators"]
+    },
+    "kyc_setting": {
+        "keyword": [
+            "KYC",
+            "verification",
+            "kyc verification",
+            "identity verification",
+            "KYC settings",
+            "client verification",
+            "KYC configuration",
+            "customer verification"
+        ],
+        "title": "KYC Setting",
+        "subtitle": "Configure the dynamic input field to collect information of your client if you need.",
+        "icon": "las la-user-check",
+        "route_name": "admin.kyc.setting"
+    },
+    "language": {
+        "keyword": [
+            "language",
+            "localize",
+            "translation",
+            "translate",
+            "internationalization",
+            "language settings",
+            "localization settings",
+            "translation settings",
+            "configure languages",
+            "configure localization"
+        ],
+        "title": "Language",
+        "subtitle": "Configure your required languages and keywords to localize the system.",
+        "icon": "las la-language",
+        "route_name": "admin.language.manage"
+    },
+    "cron_job_setting": {
+        "keyword": [
+            "cron job",
+            "automate operations",
+            "schedule",
+            "automate",
+            "tasks",
+            "cron job settings",
+            "task scheduling",
+            "automation settings",
+            "configure cron job",
+            "configure tasks"
+        ],
+        "title": "Cron Job Setting",
+        "subtitle": "Configure cron job to automate some operations of the system.",
+        "icon": "las la-clock",
+        "route_name": "admin.cron.index",
+        "admin_only": true
+    },
+    "extensions": {
+        "keyword": [
+            "extensions",
+            "plugins",
+            "addons",
+            "extension settings",
+            "plugin settings",
+            "addon settings",
+            "captcha",
+            "custom captcha",
+            "google captcha",
+            "recaptcha",
+            "re-captcha",
+            "re captcha",
+            "tawk",
+            "tawk.to",
+            "tawk to",
+            "analytics",
+            "google analytics"
+        ],
+        "title": "Extensions",
+        "subtitle": "Manage extensions of the system here to extend some extra features of the system.",
+        "icon": "las la-puzzle-piece",
+        "route_name": "admin.extensions.index"
+    },
+    "seo_configuration": {
+        "keyword": [
+            "SEO",
+            "meta title",
+            "meta description",
+            "meta keywords",
+            "optimization",
+            "meta tags",
+            "SEO configuration"
+        ],
+        "title": "SEO Configuration",
+        "subtitle": "Configure proper meta title, meta description, meta keywords, etc to make the system SEO-friendly.",
+        "icon": "las la-globe",
+        "route_name": "admin.frontend.seo"
+    },
+    "manage_frontend": {
+        "keyword": [
+            "frontend",
+            "template",
+            "manage frontend",
+            "frontend contents",
+            "frontend settings",
+            "about us",
+            "banner",
+            "contact",
+            "faq",
+            "social icons",
+            "section settings",
+            "subscribe"
+        ],
+        "title": "Manage Frontend",
+        "subtitle": "Control all of the frontend contents of the system.",
+        "icon": "la la-html5",
+        "route_name": "admin.frontend.index"
+    },
+    "manage_pages": {
+        "keyword": [
+            "pages",
+            "manage pages",
+            "home page",
+            "contact page",
+            "blog page"
+        ],
+        "title": "Manage Pages",
+        "subtitle": "Control dynamic and static pages of the system.",
+        "icon": "las la-list",
+        "route_name": "admin.frontend.manage.pages"
+    },
+    "manage_templates": {
+        "keyword": [
+            "Manage Templates",
+            "Templates",
+            "Change Templates"
+        ],
+        "title": "Manage Templates",
+        "subtitle": "Manage templates form here.",
+        "icon": "la la-html5",
+        "route_name": "admin.frontend.templates"
+    },
+    "social_login_setting": {
+        "keyword": [
+            "social login",
+            "social media",
+            "authentication",
+            "social media login",
+            "social media authentication",
+            "facebook login",
+            "google login",
+            "linkedin login"
+        ],
+        "title": "Social Login Setting",
+        "subtitle": "Provide the required information here to use the login system by social media.",
+        "icon": "las la-user-circle",
+        "route_name": "admin.setting.socialite.credentials"
+    },
+    "policy_pages": {
+        "keyword": [
+            "privacy and policy",
+            "terms and condition",
+            "terms of service"
+        ],
+        "title": "Policy Pages",
+        "subtitle": "Configure your policy and terms of the system here.",
+        "icon": "las la-shield-alt",
+        "route_name": "admin.frontend.sections",
+        "params": {"key": "policy_pages"}
+    },
+    "maintenance_mode": {
+        "keyword": [
+            "maintenance mode",
+            "system maintenance",
+            "system health",
+            "maintenance settings",
+            "system health settings",
+            "enable maintenance",
+            "disable maintenance",
+            "maintenance configuration"
+        ],
+        "title": "Maintenance Mode",
+        "subtitle": "Enable or disable the maintenance mode of the system when required.",
+        "icon": "las la-robot",
+        "route_name": "admin.maintenance.mode"
+    },
+    "gdpr_cookie": {
+        "keyword": [
+            "GDPR cookie",
+            "cookie policy",
+            "data privacy",
+            "GDPR settings",
+            "cookie policy settings",
+            "data privacy settings"
+        ],
+        "title": "GDPR Cookie",
+        "subtitle": "Set GDPR Cookie policy if required. It will ask visitor of the system to accept if enabled.",
+        "icon": "las la-cookie-bite",
+        "route_name": "admin.setting.cookie"
+    },
+    "custom_css": {
+        "keyword": [
+            "custom CSS",
+            "modify styles",
+            "frontend",
+            "styling",
+            "design customization",
+            "CSS settings",
+            "style settings",
+            "frontend customization",
+            "design settings",
+            "customize CSS"
+        ],
+        "title": "Custom CSS",
+        "subtitle": "Write custom css here to modify some styles of frontend of the system if you need to.",
+        "icon": "lab la-css3-alt",
+        "route_name": "admin.setting.custom.css"
+    },
+    "sitemap": {
+        "keyword": [
+            "Site map",
+            "sitemap",
+            "xml",
+            "sitemap.xml"
+        ],
+        "title": "Sitemap XML",
+        "subtitle": "Insert the sitemap XML here to enhance SEO performance.",
+        "icon": "las la-sitemap",
+        "route_name": "admin.setting.sitemap"
+    },
+    "robots": {
+        "keyword": [
+            "Robots",
+            "txt",
+            "robots.txt",
+            "robot.txt"
+        ],
+        "title": "Robots txt",
+        "subtitle": "Insert the robots.txt content here to enhance bot web crawlers and instruct them on how to interact with certain areas of the website.",
+        "icon": "las la-robot",
+        "route_name": "admin.setting.robot"
+    },
+    "in_app_payment": {
+        "keyword": [
+            "in app payment",
+            "google pay",
+            "payments",
+            "mobile payments",
+            "app transactions",
+            "payment settings",
+            "in-app payment settings",
+            "mobile payment settings",
+            "configure payments",
+            "app transaction settings"
+        ],
+        "title": "In App Payment",
+        "subtitle": "Configure google pay to accept payments directly within your app.",
+        "icon": "lab la-google-play",
+        "route_name": "admin.setting.app.purchase"
+    }
+}

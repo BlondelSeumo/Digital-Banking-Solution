@@ -1,0 +1,426 @@
+@page {
+     size: 8.27in 11.7in;
+     margin: .5in;
+}
+
+* {
+     margin: 0;
+     padding: 0;
+     outline: 0;
+}
+
+body {
+     font-family: "Arial", sans-serif;
+     font-size: 13px;
+     line-height: 1.5;
+     color: #023047;
+     padding: 0.5in;
+}
+
+.body {
+     padding-top: 10px;
+}
+
+/* Typography */
+.strong {
+     font-weight: 700;
+}
+
+.fw-md {
+     font-weight: 500;
+}
+
+.primary-text {
+     color: #219ebc;
+}
+
+h1,
+.h1 {
+     font-family: "Arial", sans-serif;
+     margin-top: 8px;
+     margin-bottom: 8px;
+     font-size: 67px;
+     line-height: 1.2;
+     font-weight: 500;
+}
+
+h2,
+.h2 {
+     font-family: "Arial", sans-serif;
+     margin-top: 8px;
+     margin-bottom: 8px;
+     font-size: 50px;
+     line-height: 1.2;
+     font-weight: 500;
+}
+
+h3,
+.h3 {
+     font-family: "Arial", sans-serif;
+     margin-top: 8px;
+     margin-bottom: 8px;
+     font-size: 38px;
+     line-height: 1.2;
+     font-weight: 500;
+}
+
+h4,
+.h4 {
+     font-family: "Arial", sans-serif;
+     margin-top: 8px;
+     margin-bottom: 8px;
+     font-size: 28px;
+     line-height: 1.2;
+     font-weight: 500;
+}
+
+h5,
+.h5 {
+     font-family: "Arial", sans-serif;
+     margin-top: 8px;
+     margin-bottom: 8px;
+     font-size: 18px;
+     line-height: 1.2;
+     font-weight: 500;
+}
+
+h6,
+.h6 {
+     font-family: "Arial", sans-serif;
+     margin-top: 8px;
+     margin-bottom: 8px;
+     font-size: 16px;
+     line-height: 1.2;
+     font-weight: 500;
+}
+
+.text-uppercase {
+     text-transform: uppercase;
+}
+
+.text-end {
+     text-align: right;
+}
+
+.text-center {
+     text-align: center;
+}
+
+/* List Style */
+ul {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+}
+
+/* Utilities */
+.d-block {
+     display: block;
+}
+
+.mt-0 {
+     margin-top: 0;
+}
+
+.m-0 {
+     margin: 0;
+}
+
+.mt-3 {
+     margin-top: 16px;
+}
+
+.mt-4 {
+     margin-top: 24px;
+}
+
+.mb-3 {
+     margin-bottom: 16px;
+}
+
+/* Title */
+.title {
+     display: inline-block;
+     letter-spacing: 0.05em;
+}
+
+.page-title {
+     font-size: 24px;
+     font-weight: 500;
+     margin-bottom: 2px;
+}
+
+.subtitle {
+     font-size: 14px;
+     font-style: italic;
+}
+
+/* Table Style */
+table {
+     /* width: 7.27in; */
+     width: 100%;
+     caption-side: bottom;
+     border-collapse: collapse;
+     border: 1px solid #eafbff;
+     color: #023047;
+     vertical-align: top;
+}
+
+table td {
+     padding: 5px 8px;
+}
+
+table th {
+     padding: 5px 8px;
+}
+
+table th:last-child {
+     text-align: right !important;
+}
+
+.table>tbody {
+     vertical-align: inherit;
+     border: 1px solid #eafbff;
+}
+
+.table>thead {
+     vertical-align: bottom;
+     background: #4634ff;
+     color: white;
+}
+
+.table>thead th {
+     font-family: "Arial", sans-serif;
+     text-align: left;
+     font-size: 14px;
+     letter-spacing: 0.03em;
+     font-weight: 500;
+}
+
+.table>body tr td {
+     font-size: 5px !important;
+}
+
+.table td:last-child {
+     text-align: right;
+}
+
+.table th:last-child {
+     text-align: right;
+}
+
+.table> :not(:first-child) {
+     border-top: 0;
+}
+
+.table-sm> :not(caption)>*>* {
+     padding: 5px;
+}
+
+.table-bordered> :not(caption)>* {
+     border-width: 1px 0;
+}
+
+.table-bordered> :not(caption)>*>* {
+     border-width: 0 1px;
+}
+
+.table-borderless> :not(caption)>*>* {
+     border-bottom-width: 0;
+}
+
+.table-borderless> :not(:first-child) {
+     border-top-width: 0;
+}
+
+.table-striped>tbody>tr:nth-of-type(even)>* {
+     background: #f6f5fd;
+}
+
+.product-img {
+     height: 80px;
+     width: 100px;
+     border: 1px solid #1b728a;
+}
+
+/* Logo */
+.logo {
+     width: 100%;
+     max-width: 200px;
+     height: 50px;
+     font-size: 24px;
+     text-transform: capitalize;
+}
+
+.logo-img {
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+}
+
+.info {
+     padding-top: 15px;
+     padding-bottom: 15px;
+     border-top: 1px solid #023047;
+     border-bottom: 1px solid #023047;
+}
+
+.address {
+     padding-top: 15px;
+     padding-bottom: 15px;
+     border-bottom: 1px solid #023047;
+}
+
+header {
+     padding-top: 15px;
+     padding-bottom: 15px;
+}
+
+footer {
+     padding: 20px;
+}
+
+.align-items-center {
+     align-items: center;
+}
+
+.footer-link {
+     text-decoration: none;
+     color: #4634ff;
+}
+
+.footer-link:hover {
+     text-decoration: none;
+     color: #4634ff;
+}
+
+.list--row {
+     overflow: auto;
+}
+
+.list--row::after {
+     content: '';
+     display: block;
+     clear: both;
+}
+
+.float-left {
+     float: left;
+}
+
+.float-right {
+     float: right;
+}
+
+.d-block {
+     display: block;
+}
+
+.d-inline-block {
+     display: inline-block;
+}
+
+.logo {
+     width: 200px;
+     height: auto;
+}
+
+.mb-5px {
+     margin-bottom: 5px;
+}
+
+.mb-15px {
+     margin-bottom: 15px;
+}
+
+.border {
+     border: 1px solid #e6e6e6;
+}
+
+.p-15px {
+     padding: 15px;
+}
+
+.p-5px {
+     padding: 5px;
+}
+
+.clearfix {
+     overflow: auto;
+}
+
+.clearfix::after {
+     content: "";
+     clear: both;
+     display: table;
+}
+
+.summary-content {
+     width: 3.5in;
+}
+
+.summary-content>div {
+     height: 30px;
+     padding: 0 10px;
+     overflow: hidden;
+}
+
+.summary-content div p {
+     height: 100%;
+     transform: translate(0px, 6px);
+}
+
+.border-bottom {
+     border-bottom: 1px solid #e6e6e6;
+}
+
+.page-title {
+     font-size: 16px;
+     font-weight: 500;
+}
+
+.text-small {
+     font-size: 12px;
+}
+
+.text--success {
+     color: #28c76f !important;
+}
+
+.text--danger {
+     color: #ea5455 !important;
+}
+
+.fw-bold {
+     font-weight: 600;
+
+}
+
+.text-muted {
+     color: #6c757d !important;
+}
+
+
+/* ---------user-panel-pdf */
+.pdf-card {
+     margin-top: 30px;
+     background-color: #fff;
+}
+
+.caption-list-two {
+     border: 1px dashed #ddd;
+     padding: 0 10px;
+}
+
+.caption-list-two li {
+     border-bottom: 1px dashed #ddd;
+     padding: 0.5rem 0;
+}
+
+.caption-list-two li:last-child {
+     border-bottom: 0;
+}
+
+.caption-list-two li .value {
+     float: right;
+}

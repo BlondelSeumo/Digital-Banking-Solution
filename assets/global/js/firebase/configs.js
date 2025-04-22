@@ -1,0 +1,1 @@
+var firebaseConfig = {"apiKey":"test","authDomain":"ste","projectId":"sdfasd","storageBucket":"sdfasdfas","messagingSenderId":"asdfsadf","appId":"asadfasdf","measurementId":"asfasdf"}

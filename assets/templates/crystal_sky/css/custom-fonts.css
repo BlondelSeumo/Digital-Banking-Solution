@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../custom-fonts/icomoon.eot?mp1g6g");
+  src: url("../custom-fonts/icomoon.eot?mp1g6g#iefix")
+      format("embedded-opentype"),
+    url("../custom-fonts/icomoon.ttf?mp1g6g") format("truetype"),
+    url("../custom-fonts/icomoon.woff?mp1g6g") format("woff"),
+    url("../custom-fonts/icomoon.svg?mp1g6g#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-certificate-1:before {
+  content: "\e907";
+}
+.icon-Asset-1:before {
+  content: "\e900";
+}
+.icon-black-back-closed-envelope-shape-1:before {
+  content: "\e901";
+}
+.icon-credit-card-1:before {
+  content: "\e902";
+}
+.icon-element-55-1:before {
+  content: "\e903";
+}
+.icon-money-1-1:before {
+  content: "\e904";
+}
+.icon-transfer-1:before {
+  content: "\e905";
+}
+.icon-withdraw-1:before {
+  content: "\e906";
+}
